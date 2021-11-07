@@ -1,0 +1,140 @@
+body {
+  background-image: url('hero-desktop-min.png');
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  display: flex;
+}
+
+@media all and (min-width: 600px) {
+  body {
+    padding: 70px 10% 70px 10%;
+  }
+}
+.plan_item > img {
+  margin-right: 15px;
+  width: 36.5px;
+}
+.plan_item {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.plan_item .value {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+
+div#donut-example {
+  max-width: 220px;
+  position: relative;
+  max-height: 262px;
+  display: flex;
+}
+
+.progressbar_container {
+  position: relative;
+  padding-left: 0;
+}
+
+/**
+ * ---------------------------------------------------
+ * Flexbox Stylying
+ */
+.dnut-holder-outer {
+  display: flex;
+  flex-flow: row wrap;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding: 25px 30px 5px;
+}
+
+.dnut-holder-outer > * {
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  .dnut-aside {
+    flex: 1 auto;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .dnut-holder-outer {
+    flex-flow: row nowrap;
+  }
+  .dnut-header {
+    max-width: 30%;
+    padding-right: 20px;
+  }
+  .dnut-holder {
+    min-width: 50%;
+  }
+}
+
+/**
+ * ---------------------------------------------------
+ * DNut Labels 
+ */
+.dnut-holder {
+  position: relative;
+  min-width: 250px;
+}
+
+.dnut_lables > div {
+  position: absolute;
+}
+
+.dnut_lables {
+  display: flex;
+  margin-bottom: 23px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.dnut_lables .carbohydrate {
+  color: #5820a0;
+  background-image: url(carbohydrate-bg.png);
+  bottom: 27px;
+  background-position: 0 12px;
+  padding-top: 51px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  left: 70px;
+}
+
+.dnut_lables .protein {
+  color: #bda2df;
+  background-image: url(protein-bg.png);
+  top: 25px;
+  background-position: 0 24px;
+  padding-bottom: 40px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  left: 170px;
+}
+
+.dnut_lables .fat {
+  background-image: url(fat-bg.png);
+  color: #c4c4c4;
+  top: 0;
+  background-position: 0 24px;
+  padding-bottom: 40px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  left: 70px;
+}
+
+.dnut-white {
+  color: white;
+}
+
+.dnut-white > li > a {
+  color: white;
+}

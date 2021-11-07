@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sample Macro Calculator" />
+  <meta name="author" content="UDSSL" />
+  <meta name="generator" content="Hugo 0.88.1" />
+  <title>Precision Nutrition Calculator</title>
+
+  <link rel="canonical" href="https://udssl.com" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/apple-touch-icon.png"
+    sizes="180x180" />
+  <link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32"
+    type="image/png" />
+  <link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16"
+    type="image/png" />
+  <link rel="manifest" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/manifest.json" />
+  <link rel="mask-icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/safari-pinned-tab.svg"
+    color="#7952b3" />
+  <link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico" />
+  <meta name="theme-color" content="#7952b3" />
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/form-validation.css" rel="stylesheet" />
+  <link href="./assets/nutrition.css" rel="stylesheet" />
+</head>
+
+<body class="bg-light clickup-chrome-ext_installed" data-new-gr-c-s-check-loaded="14.1038.0" data-gr-ext-installed="">
+  <div class="container">
+    <main>
+      <div class="py-5 text-center dnut-white">
+        <img class="d-block mx-auto mb-4" src="./assets/bootstrap-logo.svg" alt="" width="72" height="57" />
+        <h2>Free Diet Plan</h2>
+        <p class="lead">Your Free Diet Plan.</p>
+      </div>
+
+      <div class="row ">
+        <div class="col justify-content-center">
+
+          <div class="dnut-holder-outer">
+            <div class="dnut-header">
+              <h4 class="mb-3">YOUR FREE DIET PLAN</h4>
+              <p>Lose 20 LBS or 5% Body Fat in 6 Weeks with our 6 Week Challenge</p>
+            </div>
+            <div class="dnut-holder dnut-aside">
+              <div id="donut-example"></div>
+              <div class="dnut_lables">
+                <div class="carbohydrate">
+                  <img src="/assets/carbohydrate-min.svg" />
+                  <span>33 %</span>
+                </div>
+                <div class="protein">
+                  <img src="/assets/protein-min.svg" />
+                  <span>46 %</span>
+                </div>
+                <div class="fat">
+                  <img src="/assets/fat-min.svg" />
+                  <span>21 %</span>
+                </div>
+              </div>
+            </div>
+            <div class="dnut-list dnut-aside">
+              <div class="fp_freeplan_list_items">
+                <div class="plan_item">
+                  <img src="/assets/fat.svg" />
+                  <div class="text">
+                    <div class="label">Fat</div>
+                    <div class="value" id="fatValue">58 G</div>
+                  </div>
+                </div>
+                <div class="plan_item">
+                  <img src="/assets/protein.svg" />
+                  <div class="text">
+                    <div class="label">Protein</div>
+                    <div class="value" id="proteinValue">115 G</div>
+                  </div>
+                </div>
+                <div class="plan_item">
+                  <img src="/assets/carbohydrate.svg" />
+                  <div class="text">
+                    <div class="label">Carbohydrates</div>
+                    <div class="value" id="carbohydrateValue">82 G</div>
+                  </div>
+                </div>
+                <!-- <div class="plan_item">
+                <div class="activityProgressbar Moderate"></div>
+                <div class="text">
+                  <div class="label">Activity:</div>
+                  <div class="value" id="activityValue">Moderate</div>
+                </div>
+              </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1 dnut-white">© 2017–2021 Company Name</p>
+      <ul class="list-inline dnut-white">
+        <li class="list-inline-item">
+          <a href="https://udssl.com">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://udssl.com">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://udssl.com">Support</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+    <script src="./dist/all.js"></script>
+</body>
+
+</html>
