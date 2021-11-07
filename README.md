@@ -5,6 +5,7 @@ Use the Precision Nutrition Calculator to instantly get a nutrition plan—with 
 Fill out your details and click 'Get Free Diet Plan'.
 
 Visit the live demo.
+https://praveendias1180.github.io/macro-calc/
 
 ## Step 1 - Enter Your Details
 
@@ -17,3 +18,5 @@ In the first step, you will enter your details.
 In the next step, you will get your free diet plan.
 
 ![Free Diet Plan](2-free-diet-plan.jpg)
+
+https://praveendias1180.github.io/macro-calc/
